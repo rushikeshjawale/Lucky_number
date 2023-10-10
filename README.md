@@ -102,6 +102,7 @@ Because we are navigating between the components of the same applicaiton, and we
 So we need to pass a context package content.
 i.putExtra()**
 
+
 **The putExtra() method is used to include additional data within an intent object.
 This data will pass along with the intent and can be retrieved by the receiving component**
 
