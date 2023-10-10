@@ -136,3 +136,30 @@ as strings, integers, booleans and more complex objects that implement serializa
        welcomeTxt = findViewById(R.id.textView2);
        luckyNumberTxt = findViewById(R.id.lucky_number_txt);
        share_btn = findViewById(R.id.share_btn);
+
+4) previously we see how to pass data to the second activity.
+   Now we will see how to receive data. So to receive data and store them into specific variable:
+
+      Intent i = getIntent();
+      String userName = i.getStringExtra("name")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
