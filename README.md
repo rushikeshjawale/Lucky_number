@@ -57,9 +57,7 @@ Process is similar to TextView, EditText and Button.
 
 • Create a Button to share the Number to other applications.
 
-# Step 3:
-**Lets initialise the widgets of the MainActivity and add the functionality of
-"Wish me a Luck" that allows the user to be directed second Activity**
+# Step 3: Initialise the widgets of the MainActivity and add the functionality of "Wish me a Luck" Button.
 
 ### 1) Declaring the widget:
 
@@ -160,6 +158,7 @@ and random data. It allows you to create instances that allows you to generate r
         int randomNumberGenerated = random.nextInt(upper_limit);
         return randomNumberGenerated;
 
+## Step 5: Sharing Result with other applications:
 
 
 
