@@ -12,3 +12,29 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 • How to pass the data among the intents.
 
 • How to paas and share that data among other applications, using "Implicit intent" & "Explicit intents"
+
+## Step 1: Set Layout for MainActivity
+Go to "acitvity_main.xml" create TextView
+This View will display the text on the screen when you open application
+
+set layout width and height to wrap_content.
+set id.
+Set android text.
+set layout margin if needed.
+
+Then finally click set all constrains.
+
+• Similarly create EditText View:
+  This View will allow user to Enter their name
+
+To showcase what user have to enter, set hint = "Enter your name"
+Next all process is similar to Textview
+
+• Now to Create a Button
+
+  This Button will take user to the secondActivity.
+  set Button id.
+  set button text.
+  and set constraints.
+
+
