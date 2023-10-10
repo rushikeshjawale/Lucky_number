@@ -47,4 +47,34 @@ Download, copy and past images in res > drawable folder
 
 After downloading go to the top of the page and under the layout width and layout height add background attribute and track location of "res" folder
 
+Now create Image View.
+Process is similar to TextView, EditText and Button.
 
+## Step 2: process of Creating the Second Activity is similar to First:
+• Create a TextView to display the text
+
+• Create another TextView to display Numbers.
+
+• Create a Button to share the Number to other applications.
+
+## Step 3:
+Lets initialise the widgets of the MainActivity and add the functionality of
+"Wish me a Luck" that allows the user to be directed second Activity
+
+• Declaring the widget:
+    EditText editText;
+    Button btn;
+    TextView txt;
+
+• After decalring the widget we initialise them in @Override "onCreate" method:
+
+      @Override
+          protected void onCreate(Bundle savedInstanceState) {
+              super.onCreate(savedInstanceState);
+              setContentView(R.layout.activity_main);
+      
+              // Initialising the Widgets:
+              txt = findViewById(R.id.textView);
+              editText = findViewById(R.id.edit_text);
+              btn = findViewById(R.id.btn);
+          }
