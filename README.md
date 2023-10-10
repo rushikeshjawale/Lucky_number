@@ -81,3 +81,12 @@ Process is similar to TextView, EditText and Button.
               editText = findViewById(R.id.edit_text);
               btn = findViewById(R.id.btn);
           }
+### 3) Now we add functionality to button. So to add the funcitonality we will use ClickListner:
+      btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+*here we need to direct the user to the second activity, but i need to get the name of the user
+from the "EditText" and pass it to the second activity*
