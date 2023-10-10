@@ -58,8 +58,8 @@ Process is similar to TextView, EditText and Button.
 • Create a Button to share the Number to other applications.
 
 ## Step 3:
-Lets initialise the widgets of the MainActivity and add the functionality of
-"Wish me a Luck" that allows the user to be directed second Activity
+**Lets initialise the widgets of the MainActivity and add the functionality of
+"Wish me a Luck" that allows the user to be directed second Activity**
 
 #### Declaring the widget:
 
