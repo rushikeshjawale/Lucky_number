@@ -140,8 +140,8 @@ as strings, integers, booleans and more complex objects that implement serializa
 4) previously we see how to pass data to the second activity.
    Now we will see how to receive data. So to receive data and store them into specific variable:
 
-      Intent i = getIntent();
-      String userName = i.getStringExtra("name")
+       Intent i = getIntent();
+       String userName = i.getStringExtra("name");
 
 
 
