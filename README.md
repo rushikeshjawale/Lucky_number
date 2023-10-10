@@ -131,13 +131,13 @@ as strings, integers, booleans and more complex objects that implement serializa
        TextView welcomeTxt, luckyNumberTxt;
        Button share_btn;
 
-3) Initialising the Widget:
+2) Initialising the Widget:
    
        welcomeTxt = findViewById(R.id.textView2);
        luckyNumberTxt = findViewById(R.id.lucky_number_txt);
        share_btn = findViewById(R.id.share_btn);
 
-4) previously we see how to pass data to the second activity.
+3) previously we see how to pass data to the second activity.
    Now we will see how to receive data. So to receive data and store them into specific variable:
 
        Intent i = getIntent();
@@ -146,7 +146,7 @@ as strings, integers, booleans and more complex objects that implement serializa
 This method allows us to get the key - value pairs that are stored in the put extra method.
 This method will retrive the key and value pair from "i.putExtra( )"
 
-5) Now lets generate Random number:
+4) Now lets generate Random number:
 
 lets create a new function called generate random numbers, I created the instance from random class which is in java.
 This is class is in the java standard library and it is use to generate random numbers
