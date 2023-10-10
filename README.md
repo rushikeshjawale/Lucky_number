@@ -95,7 +95,8 @@ from the "EditText" and pass it to the second activity**
     String userName = editText.getText().toString();
 ### 5) Now we will use "Explicit Intent" 
     Intent i = new Intent()
-Because we are navigating between the components of the same applicaiton, and we will pass 2 parameters "this" & "SecondActivity"
+Because we are navigating between the components of the same applicaiton, and we will pass 2 parameters "this" & "SecondActivity".
+
 
 **This will give error because "this" is not refered to a context.
 So we need to pass a context package content.
