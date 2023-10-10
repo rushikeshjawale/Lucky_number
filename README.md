@@ -146,6 +146,18 @@ as strings, integers, booleans and more complex objects that implement serializa
 This method allows us to get the key - value pairs that are stored in the put extra method.
 This method will retrive the key and value pair from "i.putExtra( )"
 
+5) Now lets generate Random number:
+
+lets create a new function called generate random numbers, I created the instance from random class which is in java.
+This is class is in the java standard library and it is use to generate random numbers
+and random data. It allows you to create instances that allows you to generate random numbers using various algorithm.
+
+      public int generateRandomNumber(){
+        Random random = new Random();
+        int upper_limit = 1000;		// This is the maximum limit
+
+        int randomNumberGenerated = random.nextInt(upper_limit);
+        return randomNumberGenerated;
 
 
 
