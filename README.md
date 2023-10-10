@@ -61,7 +61,7 @@ Process is similar to TextView, EditText and Button.
 Lets initialise the widgets of the MainActivity and add the functionality of
 "Wish me a Luck" that allows the user to be directed second Activity
 
-• Declaring the widget:
+#### Declaring the widget:
 
     EditText editText;
       
@@ -69,7 +69,7 @@ Lets initialise the widgets of the MainActivity and add the functionality of
       
     TextView txt;
 
-• After decalring the widget we initialise them in @Override "onCreate" method:
+#### After decalring the widget we initialise them in @Override "onCreate" method:
 
       @Override
           protected void onCreate(Bundle savedInstanceState) {
