@@ -18,10 +18,10 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 #### Go to "acitvity_main.xml" create TextView
 This View will display the text on the screen when you open application
 
-#####set layout width and height to wrap_content.
-#####set id.
-#####Set android text.
-#####set layout margin if needed.
+####set layout width and height to wrap_content.
+####set id.
+####Set android text.
+####set layout margin if needed.
 
 Then finally click set all constrains.
 
