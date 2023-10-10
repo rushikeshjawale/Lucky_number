@@ -41,7 +41,10 @@ This View will allow user to Enter their name
   • set Button id.
   
   • set button text.
-  
-  • and set constraints.
+
+### 4) Now to set the Background image of application:
+Download, copy and past images in res > drawable folder
+
+After downloading go to the top of the page and under the layout width and layout height add background attribute and track location of "res" folder
 
 
