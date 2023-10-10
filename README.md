@@ -88,5 +88,5 @@ Process is similar to TextView, EditText and Button.
 
             }
         });
-*here we need to direct the user to the second activity, but i need to get the name of the user
-from the "EditText" and pass it to the second activity*
+**here we need to direct the user to the second activity, but i need to get the name of the user
+from the "EditText" and pass it to the second activity**
