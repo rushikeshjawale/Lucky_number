@@ -62,9 +62,12 @@ Lets initialise the widgets of the MainActivity and add the functionality of
 "Wish me a Luck" that allows the user to be directed second Activity
 
 • Declaring the widget:
-    EditText editText;
-    Button btn;
-    TextView txt;
+
+  EditText editText;
+    
+  Button btn;
+    
+  TextView txt;
 
 • After decalring the widget we initialise them in @Override "onCreate" method:
 
