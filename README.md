@@ -112,3 +112,13 @@ This data will pass along with the intent and can be retrieved by the receiving 
                         SecondActivity.class
                         **
 This will return context variable**
+
+
+### 6) Now we will pass the name to SecondActivity:
+i.putExtra()
+
+The put extra method is used to include additional data within an intent object.
+This data is passed along with the intent and can be retrieved by the receiving component.
+
+The put extra method is overloaded with various versions to accommodate different types of data such
+as strings, integers, booleans and more complex objects that implement serializable or parsable interfaces.
