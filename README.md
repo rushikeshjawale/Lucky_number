@@ -13,7 +13,7 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 
 • How to paas and share that data among other applications, using "Implicit intent" & "Explicit intents"
 
-## Step 1: Set Layout for MainActivity
+# Step 1: Set Layout for MainActivity
 
 ### 1) Go to "acitvity_main.xml" create TextView
 This View will display the text on the screen when you open application
@@ -50,14 +50,14 @@ After downloading go to the top of the page and under the layout width and layou
 Now create Image View.
 Process is similar to TextView, EditText and Button.
 
-## Step 2: process of Creating the Second Activity is similar to First:
+# Step 2: process of Creating the Second Activity is similar to First:
 • Create a TextView to display the text
 
 • Create another TextView to display Numbers.
 
 • Create a Button to share the Number to other applications.
 
-## Step 3:
+# Step 3:
 **Lets initialise the widgets of the MainActivity and add the functionality of
 "Wish me a Luck" that allows the user to be directed second Activity**
 
@@ -122,3 +122,17 @@ This data is passed along with the intent and can be retrieved by the receiving 
 
 The put extra method is overloaded with various versions to accommodate different types of data such
 as strings, integers, booleans and more complex objects that implement serializable or parsable interfaces.
+
+
+# Step 4: Initialise views of the second activity and generate the random number.
+
+1) Getting widget:
+ 
+       TextView welcomeTxt, luckyNumberTxt;
+       Button share_btn;
+
+3) Initialising the Widget:
+   
+       welcomeTxt = findViewById(R.id.textView2);
+       luckyNumberTxt = findViewById(R.id.lucky_number_txt);
+       share_btn = findViewById(R.id.share_btn);
