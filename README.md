@@ -15,7 +15,7 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 
 ## Step 1: Set Layout for MainActivity
 
-###1) Go to "acitvity_main.xml" create TextView
+### 1) Go to "acitvity_main.xml" create TextView
 This View will display the text on the screen when you open application
 
 • set layout width and height to wrap_content.
@@ -28,13 +28,13 @@ This View will display the text on the screen when you open application
 
 • Then finally click set all constrains.
 
-###2) Similarly create EditText View: 
+### 2) Similarly create EditText View: 
 This View will allow user to Enter their name
 
 • To showcase what user have to enter, set hint = "Enter your name"
   Next all process is similar to Textview
 
-###3) Now to Create a Button
+### 3) Now to Create a Button
 
   • This Button will take user to the secondActivity.
   
