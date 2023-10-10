@@ -8,5 +8,7 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 
 ## What we will learn ?
 • In this application we will learn how to get the data from the edit text.
+
 • How to pass the data among the intents.
+
 • How to paas and share that data among other applications, using "Implicit intent" & "Explicit intents"
