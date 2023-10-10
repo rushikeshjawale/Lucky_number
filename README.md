@@ -88,5 +88,11 @@ Process is similar to TextView, EditText and Button.
 
             }
         });
-**here we need to direct the user to the second activity, but i need to get the name of the user
+**Here we need to direct the user to the second activity, but i need to get the name of the user
 from the "EditText" and pass it to the second activity**
+
+### 4) we get the username and we will store it inside the "userName" String variable
+    String userName = editText.getText().toString();
+### 5) Now we will use "Explicit Intent" 
+Because we are navigating between the components of the same applicaiton,
+and we will pass 2 parameters "this" & "SecondActivity"
