@@ -143,6 +143,8 @@ as strings, integers, booleans and more complex objects that implement serializa
        Intent i = getIntent();
        String userName = i.getStringExtra("name");
 
+This method allows us to get the key - value pairs that are stored in the put extra method.
+This method will retrive the key and value pair from "i.putExtra( )"
 
 
 
