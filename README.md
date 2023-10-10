@@ -14,8 +14,9 @@ we can copy and share to e-mail, Bluetooth, Goodle drive and other application.
 • How to paas and share that data among other applications, using "Implicit intent" & "Explicit intents"
 
 ## Step 1: Set Layout for MainActivity
-Go to "acitvity_main.xml" create TextView
-This View will display the text on the screen when you open application
+
+#### Go to "acitvity_main.xml" create TextView
+    This View will display the text on the screen when you open application
 
 set layout width and height to wrap_content.
 set id.
